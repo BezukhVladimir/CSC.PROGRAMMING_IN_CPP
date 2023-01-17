@@ -1,0 +1,7 @@
+<p>Вам дан класс Foo:</p><pre><code>struct Foo {
+    void say() const { std::cout &lt;&lt; "Foo says: " &lt;&lt; msg &lt;&lt; "\n"; }
+protected:
+    Foo(const char *msg) : msg(msg) { }
+private:
+    const char *msg;
+};</code></pre><p>Как видно, создатель класса не хотел чтобы его использовали и "спрятал" конструктор класса. Но вам очень нужен объект этого класса, чтобы передать его в функцию foo_says:</p><pre><code>void foo_says(const Foo&amp; foo) { foo.say(); }</code></pre><p>В этом задании вам нужно реализовать функцию get_foo (сигнатура которой намерено не приводится в задании полностью, вам нужно подумать и вывести ее самостоятельно) так, чтобы следующий код компилировался и работал:</p><pre><code>foo_says(get_foo(msg));</code></pre><p>Где msg — произвольная C-style строка. </p><p><b>Требования к реализации:</b> при выполнении задания вам разрешено вводить любые вспомогательные функции и классы. Запрещено изменять определение класса Foo или функции foo_says. Вводить или выводить что-либо не нужно. Реализовывать функцию main не нужно.</p><br><br><font color="gray">Memory limit: 32 MB</font><br><font color="gray">Time limit: 1 second</font><br><br>
