@@ -1,6 +1,6 @@
 # PROGRAMMING IN CPP (CSC) 
 
-# Progress on a course
+## Progress on a course
 I scored 119 out of 119, having studied 100% of a course material.
 
 ## License
