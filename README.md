@@ -1,7 +1,7 @@
 # PROGRAMMING IN CPP (CSC) 
 
 ## Progress on a course
-I scored 119 out of 119, having studied 100% of a course material.
+I scored 119 out of 119, having studied 100% of a course material. <br>
 Certificate: https://stepik.org/cert/1239896
 
 ## License
