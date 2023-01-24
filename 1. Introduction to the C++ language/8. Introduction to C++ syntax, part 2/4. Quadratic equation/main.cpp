@@ -18,7 +18,7 @@ int main()
     } else if (sqrtD == 0.0) {
         x1 = -b / _2a;
         x2 = x1;
-        cout << x1 << " " << x2 << endl;
+        cout << x1 << ' ' << x2 << endl;
     } else {
         cout << "No real roots" << endl;
     }
