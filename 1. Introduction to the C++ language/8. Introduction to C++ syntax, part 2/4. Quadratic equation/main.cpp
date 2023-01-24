@@ -14,7 +14,7 @@ int main()
     if (sqrtD > 0.0) {
         x1 = (-b + sqrtD) / _2a;
         x2 = (-b - sqrtD) / _2a;
-        cout << x1 << " " << x2 << endl;
+        cout << x1 << ' ' << x2 << endl;
     } else if (sqrtD == 0.0) {
         x1 = -b / _2a;
         x2 = x1;
