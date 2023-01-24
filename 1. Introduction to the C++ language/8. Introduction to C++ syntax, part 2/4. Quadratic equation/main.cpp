@@ -6,8 +6,8 @@ using namespace std;
 int main()
 {
     double a, b, c, sqrtD, _2a, x1, x2;
-    
     cin >> a >> b >> c;
+    
     _2a = 2.0 * a;
     sqrtD = sqrt(b * b - 2.0 * _2a * c);
     
